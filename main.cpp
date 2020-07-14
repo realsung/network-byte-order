@@ -19,10 +19,9 @@ int main(int argc,char *argv[]){
     n2 = byte_order(n2);
 
     printf("%d(%#x) + %u(%#x) = %u(%#x)\n",n1,n1,n2,n2,n1+n2,n1+n2);
-    // 1000(0x3e8) + 500(0x1f4) = 1500(0x5dc)
 
-
-
+    fclose(fp1);
+    fclose(fp2);
     
     return 0;
 }
