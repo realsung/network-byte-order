@@ -1,0 +1,1 @@
+uint32_t byte_order(uint32_t n);
